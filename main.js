@@ -35,7 +35,7 @@ function withdraw() {
         oDP = 0;
     }
     if(myBalance < -750.00) {
-        return alert('Your account has been closed');
+        return alert('Your account has been closed for going below -750.00');
     }
     alert('Your balance is' + ' ' + myBalance);
     query();
